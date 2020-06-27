@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-indent-pro s */
+
 module.exports = {
     disableEmoji: false,
     list: [

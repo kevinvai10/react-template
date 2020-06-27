@@ -3,9 +3,7 @@
         "browser": true,
         "es6": true
     },
-    "extends": [
-        "airbnb"
-    ],
+    "extends": ["airbnb"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -23,6 +21,7 @@
     "rules": {
         "indent": ["error", 4],
         "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4]
+        "react/jsx-indent-pro s": ["error", 4],
+        "comma-dangle": "off"
     }
 }
