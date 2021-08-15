@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px(default by browser) = 62.5
+}
+
+body {
+    color: $text-color;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
